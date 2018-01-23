@@ -1,0 +1,65 @@
+*.sublime-project
+*.sublime-workspace
+todo.txt
+reset-files.bash
+
+*.tar.gz
+
+
+config.log
+config.status
+
+src/univalue/gen
+
+src/qt/*.moc
+src/qt/moc_*.cpp
+src/qt/forms/ui_*.h
+
+src/qt/test/moc*.cpp
+libconftest.dylib*
+
+.deps
+.dirstamp
+.libs
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.pyc
+*.o
+*.o-*
+*.patch
+.unode
+
+# Compilation and Qt preprocessor part
+*.qm
+unode-Qt.app
+
+# Unit-tests
+src/test/buildenv.py
+
+# Resources cpp
+qrc_*.cpp
+
+# Mac specific
+
+#lcov
+*.gcno
+*.gcda
+/*.info
+test_polis.coverage/
+total.coverage/
+coverage_percent.txt
+
+#build tests
+qa/pull-tester/run-bitcoind-for-test.sh
+qa/pull-tester/tests_config.py
+qa/pull-tester/cache/*
+qa/pull-tester/test.*/*
+qa/tmp
+cache/
+
+
+#development symlinks
+
